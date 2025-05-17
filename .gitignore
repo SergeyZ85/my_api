@@ -1,0 +1,93 @@
+# Файлы IDE и редакторов
+.idea/
+.vscode/
+*.swp
+*.swo
+__pycache__/
+
+# Файлы Python
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Файлы pytest
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Файлы окружения
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+
+# Файлы базы данных
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.pgdump
+
+# Локальные настройки PostgreSQL
+/postgres_data/
+
+# Файлы миграций (кроме самих миграций Alembic)
+!/migrations/
+/migrations/versions/*.pyc
+
+# Файлы операционной системы
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Файлы Jupyter Notebook
+.ipynb_checkpoints
+
+# Файлы логов
+*.log
+logs/
+
+# Файлы временных данных
+*.tmp
+*.temp
+
+# Файлы сборки и пакетов
+/dist/
+/node_modules/
+
+# Файлы специфичные для FastAPI
+/staticfiles/
+/mediafiles/
